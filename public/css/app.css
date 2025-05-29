@@ -47,6 +47,7 @@ border-bottom: 2px solid rgb(101, 5, 5);
     border-radius: 50px;
     padding: 20px;
 
+    
 }
 .login{
     display:flex;
@@ -63,6 +64,7 @@ border-bottom: 2px solid rgb(101, 5, 5);
    padding: 40px;
   
 }
+
 .fa-xmark{
     position: absolute;
     right: 0%;
@@ -347,7 +349,7 @@ border-bottom:2px solid red ;
     display: flex;
     justify-content: center;
     text-align: center;
-    gap: 50px;
+    gap: 80px;
    
 }
 .MENU1 img{
@@ -357,7 +359,7 @@ border-bottom:2px solid red ;
 display: flex;
 justify-content: center;
 text-align: center;
-gap: 50px;
+gap: 80px;
 padding-top: 100px;
 }
 .MENU2 img{
@@ -602,6 +604,12 @@ width: 100%;
  gap: 20px;
 
 }
+.login1{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: none;
+}
 /* chef */
 .chefs{
     padding-top: 100px;
@@ -630,6 +638,7 @@ width: 100%;
     transition: 0.3s;
 
 }
+
 .centent-chef div:hover{
 
     scale: 1.1;
@@ -657,6 +666,7 @@ width: 100%;
     flex-direction: column;
     text-align: center;
     font-family:cursive ;
+    padding-bottom: 100px;
 }
 .carousel-container{
     display: block;
@@ -688,6 +698,9 @@ img {vertical-align: middle;}
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
+}
+.padding{
+    padding-bottom: 50px;
 }
 
 
@@ -747,10 +760,11 @@ img {vertical-align: middle;}
 
 /* hhhh */
 .slideshow-container{
-
     width: 100%;
+    background-color: #bbb;
     margin-top: 30px;
     margin-top: 100px;
+    height: 50vh;
 
 
     }
@@ -758,6 +772,8 @@ img {vertical-align: middle;}
     display: flex;
     gap: 70px;
     align-items: center;
+    width: 100%;
+    height: 100%;
 
 }
 .parentcontcaro img{
@@ -774,6 +790,8 @@ img {vertical-align: middle;}
     font-family: roboto;
     line-height: 30px;
     padding-right: 10px;
+    width: 100%;
+    height: 100%;
 }
 .contentcaro svg{
     color: #ce1212a2;
@@ -791,7 +809,7 @@ img {vertical-align: middle;}
     color: #ffc107;;
 }
 .carousel-container1{
-    width: 69vw;
+    width: 100vw;
     position: relative;
     overflow: hidden;
     height: 40vh;
@@ -806,51 +824,4 @@ img {vertical-align: middle;}
 .slide{
    min-width: 100%;
 }
-.pointsCrusel{
-    display: flex;
-    gap: 10px;
-    position: absolute;
-    bottom: 0px;
-    right: 50%;
-}
-.pointsCrusel div{
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-    background-color: #ce12128a;
-    cursor: pointer;
-}
-.carparent{
-    height: 90vh;
 
-}
-.carr{
-    width: 100%;
-    height: 90vh;
-}
-.caro2{
-    min-width: 34%;
-    height: 80vh !important;
-
-}
-.caro2 h4{
-    font-family: amatic;
-    color: white;
-    font-size: 29px;
-}
-.caro2 h2{
-    color: white;
-    font-family: roboto;
-    font-size: 35px;
-    border-bottom: 2px solid #ce1212;
-    padding-bottom: 5px;
-    width: fit-content;
-}
-.caro2 p {
-    color: rgba(255, 255, 255, 0.719);
-    font-family: roboto;
-}
-.carousel-container{
-    display: none;
-
-}
